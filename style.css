@@ -2,7 +2,7 @@ html, body, * {
   box-sizing: border-box;
 }
 
-a {
+/* a {
   background:beige
 }
 
@@ -50,6 +50,7 @@ p {
 
 section {
   border: 1px red dashed;
+  margin: 5px;
 }
 
 /*
