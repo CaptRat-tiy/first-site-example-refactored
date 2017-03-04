@@ -14,14 +14,23 @@ header {
   background-color: brown;
   padding: 2%;
 }
+*/
+header {
+  background: brown;
+}
 
 img {
-  margin: 3px;
+  /*margin: 3px;*/
   border: 2px solid grey;
   border-radius: 10px;
   padding: 5px;
   width: 200px;
-  height: auto;
+  height: 200px;
+}
+
+p {
+  max-width: 200px;
+  float: none;
 }
 
 /* CLASS STYLINGS */
