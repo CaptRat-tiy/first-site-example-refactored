@@ -21,26 +21,38 @@ a:hover {
 a:active {
   color:red;
   background: yellow;
+}*/
+.card1 {
+  border: 1px black dashed;
 }
 
-h1 {background:grey;}
+/* h1 {background:grey;}
 
-h2 {background-color: gray;}
+h2 {background-color: gray;} */
 
 img {
-  margin: 5px 100px;
+  margin: 0 0 1em 1em;
   border: 2px solid grey;
   border-radius: 10%;
   padding: 10px;
+  float: right;;
+  max-width: 150px;
+  max-height: 150px;
 }
 
+/*
 ol li {font-weight: 900;}
 
 p {
   height:100%;
   width: 700px;
+} */
+
+section {
+  border: 1px red dashed;
 }
 
+/*
 span {
   display: inline-block;
   background-color: goldenrod;
@@ -85,14 +97,17 @@ ul#horizontal-list li {
   height: 600px;
   border: 1px solid black;
   background-image: url("villa/Google Earth of Podere Tresa.JPG")
-}
+}*/
 
 .cards-float-left {
   float: left;
   margin: 5%;
 }
+.clearfix {
+  overflow: auto;
+}
 
-.cf:before,
+/* .cf:before,
 .cf:after{
   content: " ";
   display: table;
