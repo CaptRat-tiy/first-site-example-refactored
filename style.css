@@ -6,106 +6,34 @@ a {
   background:beige
 }
 
-/*a:link {color:blue}
-
-a:visited {
-  color: green;
-  background:red;
+footer {
+  border: 1px solid black;
 }
 
-a:hover {
-  color:hotpink;
-  background: white;
+header {
+  background-color: brown;
+  padding: 2%;
 }
-
-a:active {
-  color:red;
-  background: yellow;
-}
-
-h1 {background:grey;}
-
-h2 {background-color: gray;}
 
 img {
-  margin: 5px 100px;
+  margin: 3px;
   border: 2px solid grey;
-  border-radius: 10%;
-  padding: 10px;
-}
-
-ol li {font-weight: 900;}
-
-p {
-  height:100%;
-  width: 700px;
-}
-
-span {
-  display: inline-block;
-  background-color: goldenrod;
-  /*width: 4em;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-}
-
-ul#horizontal-list li {
-		display: inline;
-}
-
-/*ID styling*/
-/*#beige{
-  background-color: beige;
-}
-
-#drug {
-  text-decoration: line-through;
-}
-
-#gilligan {
-  color: navy;
-  background-color: lightblue;
-  border: yellow dashed 2px;
-  hover: blue;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  height: auto;
 }
 
 /* CLASS STYLINGS */
-/*.box {
-  width: 600px;
-  height: 600px;
-  border: 1px solid black;
-  background-image: url("villa/Google Earth of Podere Tresa.JPG")
-}
-
-.cards-float-left {
-  float: left;
-  margin: 5%;
-}
 
 .cf:before,
-.cf:after{
+.cf:after {
   content: " ";
   display: table;
 }
 
 .cf:after {
   clear: both;
-}
-
-.chinese {
-  font-family:fantasy;
-  text-align: center;
-  font-style: oblique;
 }
 
 .float-left {
@@ -116,13 +44,8 @@ ul#horizontal-list li {
   float: right;
 }
 
-.right-side {
-  padding: 1em;
-  background: mediumblue;
-  float: right;
+/*ID styling*/
+
+#strikethrough {
+  text-decoration: line-through;
 }
-.left-side {
-  padding: 1em;
-  background: mediumblue;
-  float: left;
-}*/
