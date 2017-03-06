@@ -2,25 +2,22 @@ html, body, * {
   box-sizing: border-box;
 }
 
-/* a {
+ a {
   background:beige
 }
 
 footer {
   border: 1px solid black;
+  text-align: center;
+  background-color: rgba(94, 117, 83, 0.6);
 }
 
-header {
-  background-color: brown;
-  padding: 2%;
-}
-*/
+
 header {
   background: brown;
 }
 
 img {
-  /*margin: 3px;*/
   border: 2px solid grey;
   border-radius: 10px;
   padding: 5px;
@@ -33,6 +30,9 @@ p {
   float: none;
 }
 
+ul {
+  list-style: none;
+}
 /* CLASS STYLINGS */
 
 .cf:before,
